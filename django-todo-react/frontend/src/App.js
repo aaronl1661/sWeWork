@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
       </header>
     </div>
   );

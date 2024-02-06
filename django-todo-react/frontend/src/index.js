@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./index.html";
-import "/Users/abhi/SweWork/sWeWork/django-todo-react/frontend/src/css/styles.css";
+import "./css/styles.css";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import reportWebVitals from "./reportWebVitals";

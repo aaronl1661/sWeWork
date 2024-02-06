@@ -11309,7 +11309,7 @@ html {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("/Users/abhi/SweWork/sWeWork/django-todo-react/frontend/public/bg-callout.jpg");
+    url("../../public/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11370,7 +11370,7 @@ footer.footer .social-link:hover {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("/Users/abhi/SweWork/sWeWork/django-todo-react/frontend/public/bg-masthead.jpg");
+    url("../../public/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
