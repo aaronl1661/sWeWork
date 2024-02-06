@@ -1,6 +1,21 @@
-import logo from "./logo.svg";
-import "./App.css";
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import './index.css';
+// import App from './App';
+// import 'bootstrap/dist/css/bootstrap.css';
+// import reportWebVitals from './reportWebVitals';
 
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+
+// // If you want to start measuring performance in your app, pass a function
+// // to log results (for example: reportWebVitals(console.log))
+// // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// reportWebVitals();
 window.addEventListener("DOMContentLoaded", (event) => {
   const sidebarWrapper = document.getElementById("sidebar-wrapper");
   let scrollToTopVisible = false;
@@ -81,29 +96,3 @@ function fadeIn(el, display) {
     }
   })();
 }
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//         <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
-//       </header>
-//     </div>
-//   );
-// }
-// /*!
-// * Start Bootstrap - Stylish Portfolio v6.0.6 (https://startbootstrap.com/theme/stylish-portfolio)
-// * Copyright 2013-2023 Start Bootstrap
-// * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
-// */
-// export default App;
