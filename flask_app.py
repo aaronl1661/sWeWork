@@ -3,12 +3,33 @@
 
 from flask import Flask, render_template, request, jsonify
 import git
+from flask_sqlalchemy import SQLAlchemy
+
 # from openai import OpenAI
 
 
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
+SQLALCHEMY_DATABASE_URI = "mysql+mysqlconnector://{username}:{password}@{hostname}/{databasename}".format(
+    username="aaronl1661",
+    password="swework12345",
+    hostname="aaronl1661.mysql.pythonanywhere-services.com",
+    databasename="aaronl1661$default",
+)
+app.config["SQLALCHEMY_DATABASE_URI"] = SQLALCHEMY_DATABASE_URI
+app.config["SQLALCHEMY_POOL_RECYCLE"] = 299
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+db = SQLAlchemy(app)
+
+class Comment(db.Model):
+
+    __tablename__ = "comments"
+
+    id = db.Column(db.Integer, primary_key=True)
+    content = db.Column(db.String(4096))
+
 
 @app.route('/')
 def homepage():
